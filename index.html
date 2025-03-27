@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvalho Action</title>
+    <link rel="shortcut icon" href="imagens/Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+
+        <a  href="index.html"><img id="logo" src="imagens/Logo.png" alt="Carvalho"></a>
+
+        <h1>Carvalho Action</h1>
+
+        <p id="sublogo">Ação é o que dá resultado</p>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <a href="quem.html" target="_self">Quem somos</a>
+            <a href="#">Contato</a>
+            <a href="#">Portifólio</a>
+        </nav>
+    </header>
+    <div id="corpo">
+    <main >
+        
+        <h2>CHEGAMOS PARA FAZER ACONTECER!</h2>
+        
+      
+            <p>Somos <strong>especialistas</strong> em:</p>
+            <ul type="">
+            
+                
+                    <img class="icone" src="imagens/checkazul.gif" alt="">
+                
+                    <li> <strong>Assessoria de Imprensa</strong> – Sua marca na mídia certa!</li>
+                
+                    <img class="icone"src="imagens/checkazul.gif" alt="">
+                    <li> <strong>Gestão de Redes Sociais</strong> – Engajamento estratégico para crescimento real.</li>
+                    <img class="icone"src="imagens/checkazul.gif" alt="">
+                    <li> <strong>Gestão de Crise</strong> – Protegemos sua reputação com estratégia e ação.</li>
+                    <img class="icone"src="imagens/checkazul.gif" alt="">
+                    
+                    <li> <strong>Marketing Digital</strong> – Resultados que impulsionam o seu negócio!</li>
+                    <img class="icone"src="imagens/idea.gif" alt="">
+                <li>Ação é o que dá resultado. E nós fazemos acontecer!</li><br>
+              
+            
+            </ul>
+            <p class="fale">📩 Quer elevar sua marca? <a  id="email" href="mailto:contato.carvalhoaction@gmail.com">Fale conosco agora!</a></p>
+        
+       
+
+    </main>
+   </div>
+    <script>
+      
+         function clickMenu() {
+            if (itens.style.display == 'flex') {
+                itens.style.display = "none"
+            } else{
+                itens.style.display = 'flex'
+            }
+
+
+        }
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                                            
+                itens.style.display='flex'}
+                else{itens.style.display='none'
+
+                }
+                
+        }
+    </script>
+    <footer>
+        <p>Acompanhe nossas redes sociais:</p>
+        
+    </footer>
+    
+</body>
+</html>
+
+
+ <!--- 
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://www.youtube.com/watch?v=pHF0a_zfARA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left: 2.3%;;width:95%;height:100%;" ></iframe>
+        </div>
+        -->
