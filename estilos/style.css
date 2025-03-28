@@ -93,6 +93,7 @@ header > nav > a{
 main {
     margin: auto;
     width: 100vw;
+   
     background-color: #4bccec81;
     background-image: linear-gradient(to bottom, #4BCBEC, #7B60E4);
 }
@@ -129,6 +130,10 @@ main > .fale{
     border-radius:0px 10px 10px 0px;
     text-shadow: 2px 2px 4px #000000b8;
     box-shadow: 3px 3px 6px 1px #0000006e;
+}
+
+#corpo{
+    height: 80vh;
 }
 
 ul{
