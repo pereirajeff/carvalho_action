@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+
+.Textos{
+    width: 65vw;
+    
+}
+
+.textoinicio{
+    width: 50vw;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 1px #0000009c;
+    }
+
+
+ul > li {
+    color: black;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+header > nav{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    
+}
+
+header > nav > a{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+
+
+header > .material-symbols-outlined {
+   display: none;
+    
+}
+
+header > nav > a:hover{
+    background-color: #51dcff;
+    width: auto;
+    height: auto;
+}
