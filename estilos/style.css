@@ -10,7 +10,7 @@
 
 
 header{
-    background-image: linear-gradient(50deg, #7B60E4, #4BCBEC);
+    background-image: linear-gradient(50deg, #7B60E4, #4bccecaf);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -97,7 +97,7 @@ body {
 
 main {
    
-    background-image: linear-gradient(to bottom, #4BCBEC, #7B60E4);
+    background-image: linear-gradient(to bottom, #4bcbec78, #7b60e47a);
     min-height: 100vh;
    
 }
@@ -206,6 +206,9 @@ footer{
 
 }
 
-  
 
+#logo{
+    box-shadow: none;
+}
+  
 
